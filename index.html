@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jt-519 | Kernel Engineer</title>
+  <meta name="description" content="九天 — Chromium & Android Engineer. Browser kernel development, rendering optimization, AI agent workflows.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Noto+Sans+SC:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-logo">jt-519</div>
+  <ul class="nav-links">
+    <li><a href="#skills">skills</a></li>
+    <li><a href="#about">about</a></li>
+    <li><a href="#contact">contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <p class="hero-prompt"><span>~</span>/dev $ whoami</p>
+    <h1 class="hero-name"><span class="highlight">九天</span></h1>
+    <p class="hero-role">Chromium & Android Kernel Engineer</p>
+    <p class="hero-desc">
+      专注浏览器内核开发与移动端深度优化。在 Chromium 渲染管线、合成器架构、WebView 定制等领域持续深耕，同时探索 AI Agent 与工程化的融合实践。
+    </p>
+    <div class="hero-actions">
+      <a href="#skills" class="btn btn-primary">cat ./skills</a>
+      <a href="#contact" class="btn btn-ghost">ping me</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span class="terminal-dot"></span>
+        <span class="terminal-dot"></span>
+        <span class="terminal-dot"></span>
+        <span class="terminal-title">bash — 80x24</span>
+      </div>
+      <div class="terminal-body" id="terminal-output">
+        <!-- Populated by terminal.js -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-header reveal">
+    <p class="section-label">tech_stack</p>
+    <h2 class="section-title">核心能力</h2>
+  </div>
+  <div class="skills-grid">
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <circle cx="12" cy="12" r="4"/>
+          <line x1="12" y1="2" x2="12" y2="8"/>
+          <line x1="4.93" y1="17" x2="9.17" y2="14.5"/>
+          <line x1="19.07" y1="17" x2="14.83" y2="14.5"/>
+        </svg>
+      </div>
+      <h3 class="skill-name">Chromium 内核</h3>
+      <p class="skill-desc">深入浏览器引擎底层，定制渲染管线、网络栈与合成器，实现差异化内核能力。</p>
+      <div class="tags">
+        <span class="tag">Blink</span>
+        <span class="tag">V8</span>
+        <span class="tag">CC</span>
+        <span class="tag">GPU</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="5" y="10" width="14" height="10" rx="2"/>
+          <path d="M8 10V7a4 4 0 0 1 8 0v3"/>
+          <circle cx="9.5" cy="14" r="1"/>
+          <circle cx="14.5" cy="14" r="1"/>
+          <line x1="7" y1="4" x2="9" y2="7"/>
+          <line x1="17" y1="4" x2="15" y2="7"/>
+        </svg>
+      </div>
+      <h3 class="skill-name">Android 开发</h3>
+      <p class="skill-desc">平台深度优化，WebView 定制，系统级性能调优与跨进程架构设计。</p>
+      <div class="tags">
+        <span class="tag">AOSP</span>
+        <span class="tag">JNI</span>
+        <span class="tag">WebView</span>
+        <span class="tag">NDK</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2a10 10 0 0 1 10 10"/>
+          <path d="M12 2a10 10 0 0 0-10 10"/>
+          <path d="M2 12a10 10 0 0 0 3.8 7.9"/>
+          <path d="M22 12a10 10 0 0 1-3.8 7.9"/>
+          <line x1="12" y1="12" x2="16" y2="7"/>
+          <circle cx="12" cy="12" r="1.5"/>
+        </svg>
+      </div>
+      <h3 class="skill-name">性能优化</h3>
+      <p class="skill-desc">从帧率到内存，从启动到网络，全链路性能分析与深度调优。</p>
+      <div class="tags">
+        <span class="tag">Trace</span>
+        <span class="tag">Profiling</span>
+        <span class="tag">Memory</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="6" cy="6" r="2"/>
+          <circle cx="18" cy="6" r="2"/>
+          <circle cx="6" cy="18" r="2"/>
+          <circle cx="18" cy="18" r="2"/>
+          <circle cx="12" cy="12" r="2.5"/>
+          <line x1="7.8" y1="7.8" x2="10" y2="10"/>
+          <line x1="16.2" y1="7.8" x2="14" y2="10"/>
+          <line x1="7.8" y1="16.2" x2="10" y2="14"/>
+          <line x1="16.2" y1="16.2" x2="14" y2="14"/>
+        </svg>
+      </div>
+      <h3 class="skill-name">AI 工程化</h3>
+      <p class="skill-desc">AI Agent 开发，自动化工程流水线，让 AI 融入实际开发工作流。</p>
+      <div class="tags">
+        <span class="tag">LLM</span>
+        <span class="tag">Agent</span>
+        <span class="tag">Automation</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-header reveal">
+    <p class="section-label">about</p>
+    <h2 class="section-title">关于我</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-block reveal">
+      <h3 class="about-heading">// 擅长</h3>
+      <ul class="about-list">
+        <li>浏览器内核架构设计与落地</li>
+        <li>复杂系统性能诊断与调优</li>
+        <li>跨语言工程（C++ / Java / Python）</li>
+        <li>AI 工具链搭建与工作流自动化</li>
+        <li>技术方案文档化与知识沉淀</li>
+      </ul>
+    </div>
+    <div class="about-block reveal">
+      <h3 class="about-heading">// 日常</h3>
+      <ul class="about-list">
+        <li>
+          <svg class="about-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          阅读 — 科幻小说、技术书
+        </li>
+        <li>
+          <svg class="about-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><polygon points="10,8 16,12 10,16"/></svg>
+          电影 — 科幻、悬疑、纪录片
+        </li>
+        <li>
+          <svg class="about-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8 2 4 6 4 10c0 6 8 12 8 12s8-6 8-12c0-4-4-8-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+          旅行 — 用脚丈量世界
+        </li>
+        <li>
+          <svg class="about-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          音乐 — 写代码时的背景
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="reveal">
+    <h2 class="contact-title">ping -c 1 jt519</h2>
+    <p class="contact-desc">开源协作、技术交流、项目合作，随时欢迎。</p>
+    <div class="contact-links">
+      <a href="https://github.com/jt-519" class="contact-link filled" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
+          <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+        </svg>
+        GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <span>&copy; 2024 jt-519. Built with vim.</span>
+  <span>Crafted in the kernel layer.</span>
+</footer>
+
+<script src="js/nav.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/terminal.js"></script>
+</body>
+</html>
